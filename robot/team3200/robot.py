@@ -7,7 +7,7 @@
 #add 'team3200' module to the search path
 import os
 import sys
-sys.path.insert(0, os.getcwd() + "\\..")
+sys.path.insert(0, os.path.join( os.getcwd() , ".."))
 import team3200
 import wpilib
 
